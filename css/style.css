@@ -1,0 +1,80 @@
+/* 
+Stillar https://jigsaw.w3.org/css-validator/ sayti orqali validatsiyadan o'tkazildi.
+*/
+
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+/* HEADER */
+.header {
+    color: #fff;
+    text-align: center;
+    background-color: #4CB051;
+}
+
+.header__title { padding: 2rem 0; }
+
+/* NAVIGATION MENU */
+.navbar { background-color: #333; }
+
+.navbar__list { list-style-type: none; }
+
+.navbar__item {
+    padding: 0 1.5rem;
+    display: inline-block;
+}
+
+.navbar__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* MAIN CONTENT */
+.main-content { padding: 2rem 1rem 3rem; }
+
+.about-me,
+.projects { margin-bottom: 1.5rem; }
+
+.about-me__title,
+.projects__title,
+.contact__title { margin-bottom: 1rem; }
+
+.projects__list { padding-left: 3rem; }
+
+/* FORM STYLES */
+.input-label,
+.textarea-label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.form-input,
+.form-textarea,
+.form-btn {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* FOOTER */
+.footer {
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #333;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: tomato;
+}
