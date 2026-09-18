@@ -9,7 +9,10 @@ Stillar https://jigsaw.w3.org/css-validator/ sayti orqali validatsiyadan o'tkazi
     box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+}
 
 /* HEADER */
 .header {
