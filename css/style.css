@@ -3,10 +3,14 @@ Stillar https://jigsaw.w3.org/css-validator/ sayti orqali validatsiyadan o'tkazi
 */
 
 /* GLOBAL STYLES */
-* {
+html { box-sizing: border-box }
+
+*,
+*::after.
+*::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
@@ -63,6 +67,12 @@ body {
     width: 100%;
     display: block;
     margin-bottom: 0.5rem;
+}
+
+.form-btn {
+    cursor: pointer;
+    padding: 8px;
+    font-size: 1rem;
 }
 
 /* FOOTER */
