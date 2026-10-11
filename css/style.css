@@ -6,7 +6,7 @@ Stillar https://jigsaw.w3.org/css-validator/ sayti orqali validatsiyadan o'tkazi
 html { box-sizing: border-box }
 
 *,
-*::after.
+*::after,
 *::before {
     margin: 0;
     padding: 0;
